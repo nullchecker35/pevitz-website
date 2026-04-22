@@ -4,5 +4,9 @@
   "assets": {
     "directory": "./",
     "not_found_handling": "404-page"
-  }
+  },
+  "routes": [
+    { "pattern": "pevitz.com", "custom_domain": true },
+    { "pattern": "www.pevitz.com", "custom_domain": true }
+  ]
 }
